@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cOe-D8-Opp">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="QW1-61-ewV">
+            <objects>
+                <viewController id="cOe-D8-Opp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ARA-el-uHN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dices_LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="fj9-Or-row">
+                                <rect key="frame" x="-30" y="0.0" width="474" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="N1X-h4-zmL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fj9-Or-row" firstAttribute="leading" secondItem="ARA-el-uHN" secondAttribute="leading" constant="-30" id="D64-tL-PFu"/>
+                            <constraint firstItem="fj9-Or-row" firstAttribute="top" secondItem="ARA-el-uHN" secondAttribute="top" id="edh-3X-sO8"/>
+                            <constraint firstAttribute="bottom" secondItem="fj9-Or-row" secondAttribute="bottom" id="lfj-py-14I"/>
+                            <constraint firstItem="fj9-Or-row" firstAttribute="trailing" secondItem="ARA-el-uHN" secondAttribute="trailing" constant="30" id="tPH-VW-7W0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vhv-Bt-86E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dices_LaunchScreen" width="414" height="896"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
